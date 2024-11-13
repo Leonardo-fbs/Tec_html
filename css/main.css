@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family:fantasy;
+    position: absolute;
+    background-image: url(../img/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 65%;
+    height: 95%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 3%;
+}
+
+fieldset, p {
+    margin: 1%;
+    font-size: 3vmin;
+    border-radius: 5px;
+
+}
+
+label {
+    color: rgb(220, 220, 220);
+    font-family: monospace;
+    font-size: 2.5vmin;
+}
+
+input {
+    width: 18%;
+    height: 20px;    
+}
+
+input, select, textarea {
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+}
+
+[type = "file"] {
+    background-color: grey;
+    color: black;
+    width: 300px;
+}
+
+#end {
+    padding: 1%;
+}
+.btn-little{
+    width: 10%;
+}
